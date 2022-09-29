@@ -35,8 +35,7 @@ https://antonmarchitec.github.io/landing_veterinaria_vip/
 "“Está bien celebrar el éxito, pero es más importante prestar atención a las lecciones del fracaso".
 -- Bill Gates --
 
-## Imagen del proyecto.
-
+## Imagen del proyecto..
 
 
 
