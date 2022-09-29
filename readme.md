@@ -37,7 +37,7 @@ https://antonmarchitec.github.io/landing_veterinaria_vip/
 
 ## Imagen del proyecto.
 
-
+landing_veterinaria.jpg
 
 
 
