@@ -1,0 +1,380 @@
+.contSecciones2{
+    padding: 70px 0px;
+    width: 100%;
+    background:$color-verde;
+    .Subtitles{
+        font-size: $font_size_titles;
+        text-align: center;
+        color: white;
+        font-family:$font_family_IndieFlower
+    }
+    .contSection2{
+        margin-top: 50px;
+        width: 100%;
+        padding: 5px;
+        //background: rgb(207, 207, 207);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        .cajaSection2{
+            margin: 10px 0px;
+            width: 280px;
+            height: 410px;
+            background: $color-negro;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 10px 10px  $color-negro;
+            position: relative;
+            top: 0;
+            transition-property:top,transform;
+            transition-duration:0.2s;
+         
+            .cajaImagen{
+                width: 140px;
+                height: 140px;
+                background: rgb(255, 255, 255);
+                border-radius: 50%;
+                border: 1px solid $color-verde;
+                box-shadow: 0px 0px 10px $color-verde;
+                margin: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .iconAguja{
+                    border-radius: 50%;    
+                }
+            }
+            .cajaTexto{
+                margin-top: 20px;
+                padding: 5px 0px;
+                .cajaTitle{
+                    width: 80%;
+                    margin: auto;
+                    text-align: center;
+                    color: $color-verde;
+                    line-height: 22px;
+                    font-size: 25px;
+                    font-family: $font_family_IndieFlower;
+                }
+                .cajaParrafo{
+                    margin-top: 20px;
+                    color: white;
+                    font-family: $font_family_IndieFlower;
+                    .iconVacunas{
+                        color: $color-verde;
+                        font-size: 20px;
+                    }
+                    .textVacuna{
+                        font-family:$font_family_IndieFlower;
+                    }
+                    .iconEnviar{
+                        color:white;
+                        font-size: 12px;
+                    }
+                    .wts{
+                        text-decoration: none;
+                        color: $color-verde;
+                    }
+                }   
+            }
+        }
+        .cajaSection2:hover{
+            transform:translateY(-10px);
+        }   
+    }
+    
+}
+
+
+/*************************
+******************
+********************************/
+@media (min-width:670px) and (max-width:1200px){
+    .contSecciones2{
+        padding: 70px 0px;
+        width: 100%;
+        background:$color-verde;
+        .Subtitles{
+            font-size: $font_size_titles;
+            text-align: center;
+            color: white;
+            font-family:$font_family_IndieFlower
+        }
+        .contSection2{
+            margin-top: 50px;
+            width: 100%;
+            padding: 5px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            .cajaSection2{
+                margin: 10px 0px;
+                width:320px;
+                height: 400px;
+                background: $color-negro;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0px 10px 10px  $color-negro;
+                position: relative;
+                top: 0;
+                transition-property:top,transform;
+                transition-duration:0.2s;
+             
+                .cajaImagen{
+                    width: 140px;
+                    height: 140px;
+                    background: rgb(255, 255, 255);
+                    border-radius: 50%;
+                    border: 1px solid $color-verde;
+                    box-shadow: 0px 0px 10px $color-verde;
+                    margin: auto;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .iconAguja{
+                        border-radius: 50%;    
+                    }
+                }
+                .cajaTexto{
+                    margin-top: 20px;
+                    padding: 5px 0px;
+                    .cajaTitle{
+                        width:100%;
+                        margin: auto;
+                        text-align: center;
+                        color: $color-verde;
+                        line-height: 22px;
+                        font-size: 25px;
+                        font-family: $font_family_IndieFlower;
+                    }
+                    .cajaParrafo{
+                        margin-top: 20px;
+                        color: white;
+                        font-family: $font_family_IndieFlower;
+                        .iconVacunas{
+                            color: $color-verde;
+                            font-size: 20px;
+                        }
+                        .textVacuna{
+                            font-family:$font_family_IndieFlower;
+                        }
+                        .iconEnviar{
+                            color:white;
+                            font-size: 12px;
+                        }
+                        .wts{
+                            text-decoration: none;
+                            color: $color-verde;
+                        }
+                    }   
+                }
+            }
+            .cajaSection2:hover{
+                transform:translateY(-10px);
+            }   
+        }
+        
+    }
+}
+
+
+
+
+/*************************
+******************
+********************************/
+@media (min-width:481px) and (max-width:670px){
+    .contSecciones2{
+        padding: 70px 0px;
+        width: 100%;
+        background:$color-verde;
+        .Subtitles{
+            font-size: $font_size_titles;
+            text-align: center;
+            color: white;
+            font-family:$font_family_IndieFlower
+        }
+        .contSection2{
+            margin-top: 50px;
+            width: 100%;
+            padding: 5px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            .cajaSection2{
+                margin: 10px 0px;
+                width:47%;
+                height: 420px;
+                background: $color-negro;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0px 10px 10px  $color-negro;
+                position: relative;
+                top: 0;
+                transition-property:top,transform;
+                transition-duration:0.2s;
+             
+                .cajaImagen{
+                    width: 140px;
+                    height: 140px;
+                    background: rgb(255, 255, 255);
+                    border-radius: 50%;
+                    border: 1px solid $color-verde;
+                    box-shadow: 0px 0px 10px $color-verde;
+                    margin: auto;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .iconAguja{
+                        border-radius: 50%;    
+                    }
+                }
+                .cajaTexto{
+                    margin-top: 20px;
+                    padding: 5px 0px;
+                    .cajaTitle{
+                        width:100%;
+                        margin: auto;
+                        text-align: center;
+                        color: $color-verde;
+                        line-height: 22px;
+                        font-size: 25px;
+                        font-family: $font_family_IndieFlower;
+                    }
+                    .cajaParrafo{
+                        margin-top: 20px;
+                        color: white;
+                        font-family: $font_family_IndieFlower;
+                        .iconVacunas{
+                            color: $color-verde;
+                            font-size: 20px;
+                        }
+                        .textVacuna{
+                            font-family:$font_family_IndieFlower;
+                        }
+                        .iconEnviar{
+                            color:white;
+                            font-size: 12px;
+                        }
+                        .wts{
+                            text-decoration: none;
+                            color: $color-verde;
+                        }
+                    }   
+                }
+            }
+            .cajaSection2:hover{
+                transform:translateY(-10px);
+            }   
+        }
+        
+    }
+}
+
+
+
+
+
+/*************************
+******************
+********************************/
+@media (min-width:320px) and (max-width:480px){
+    .contSecciones2{
+        padding: 70px 0px;
+        width: 100%;
+        background:$color-verde;
+        .Subtitles{
+            font-size: $font_size_titles;
+            text-align: center;
+            color: white;
+            font-family:$font_family_IndieFlower
+        }
+        .contSection2{
+            margin-top: 50px;
+            width: 100%;
+            padding: 5px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            .cajaSection2{
+                margin: 10px 0px;
+                width:90%;
+                height: 380px;
+                background: $color-negro;
+                padding: 30px 20px;
+                border-radius: 10px;
+                box-shadow: 0px 10px 10px  $color-negro;
+                position: relative;
+                top: 0; 
+                transition-property:top,transform;
+                transition-duration:0.2s;
+             
+                .cajaImagen{
+                    width: 140px;
+                    height: 140px;
+                    background: rgb(255, 255, 255);
+                    border-radius: 50%;
+                    border: 1px solid $color-verde;
+                    box-shadow: 0px 0px 10px $color-verde;
+                    margin: auto;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .iconAguja{
+                        border-radius: 50%;    
+                    }
+                }
+                .cajaTexto{
+                    margin-top: 20px;
+                    padding: 5px 0px;
+                    .cajaTitle{
+                        width:100%;
+                        margin: auto;
+                        text-align: center;
+                        color: $color-verde;
+                        line-height: 22px;
+                        font-size: 25px;
+                        font-family: $font_family_IndieFlower;
+                    }
+                    .cajaParrafo{
+                        margin-top: 20px;
+                        color: white;
+                        font-family: $font_family_IndieFlower;
+                        .iconVacunas{
+                            color: $color-verde;
+                            font-size: 20px;
+                        }
+                        .textVacuna{
+                            font-family:$font_family_IndieFlower;
+                        }
+                        .iconEnviar{
+                            color:white;
+                            font-size: 12px;
+                        }
+                        .wts{
+                            text-decoration: none;
+                            color: $color-verde;
+                        }
+                    }   
+                }
+            }
+            .cajaSection2:hover{
+                transform:initial;
+            }   
+        }
+        
+    }
+}
+
+
+
+
+

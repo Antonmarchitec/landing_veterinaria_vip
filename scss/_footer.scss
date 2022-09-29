@@ -1,0 +1,329 @@
+.contFooter{
+    width: 100%;
+    background:$color-negro;
+    color: white;
+    
+    .contFooter_block{
+        width: 100%;
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        .logoFooter{
+            width: 50px;
+            height: 50px;
+            background-image: url(../source/logo.png);
+            background-size: 100% 100%;
+            margin-left: 20px;
+        }
+        .contRedes{
+            width: 100px;
+            //background: wheat;
+            .titleRed{
+                text-align: center;
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .redesRedes{
+                margin: 5px auto;
+                width: 70px;
+                //background: crimson;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+                .iconRed{
+                    color: white;
+                    font-size: 18px;
+                }
+            }
+        }
+        .otrosEnlaces{
+            width: 350px;
+            //background: chartreuse;
+            padding: 2px;
+            display: flex;
+            flex-direction: row;
+            justify-content:space-around ;
+            .items{
+                //background: chocolate;
+                text-decoration: none;
+                color: white;
+                padding:0px 0;
+                font-size:14px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .items:hover{
+                color: $color-verde;
+            }
+        }
+    }
+
+    .contFooter_copyRight{
+        width: 100%;
+        padding: 20px 0px;
+        background:$color-negro;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        .contFooter_copyRight_text{
+            font-size: 12px;
+            color:white;
+            .sp{
+                color: $color-verde;
+
+            }
+        }
+    }
+    
+}
+
+.btnSubida{
+    width:auto;
+    height: auto;
+    position:fixed;
+    right: 35px;
+    border: 2px solid $color-verde;
+    border-radius: 50%;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s all;
+    cursor: pointer;
+    .iconSubida{
+        font-size:40px;
+        color: rgb(65, 65, 65);
+        
+    }
+    .iconSubida:hover{
+        color: $color-verde;
+        
+       
+    }
+}
+.subir{
+    opacity: 1;
+}
+
+
+
+
+
+
+/***************************************************************************
+*******************************
+*******************************
+****************************************************************************/
+@media only screen and (max-width:720px){
+    .contFooter{
+        width: 100%;
+        background:$color-negro;
+        color: white;
+        
+        .contFooter_block{
+            width: 100%;
+            padding: 10px 0px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            .logoFooter{
+                width: 50px;
+                height: 50px;
+                background-image: url(../source/logo.png);
+                background-size: 100% 100%;
+                margin-left: 20px;
+            }
+            .contRedes{
+                width: 100px;
+                //background: wheat;
+                .titleRed{
+                    text-align: center;
+                    color: white;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                .redesRedes{
+                    margin: 5px auto;
+                    width: 70px;
+                    //background: crimson;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-items: center;
+                    .iconRed{
+                        color: white;
+                        font-size: 18px;
+                    }
+                }
+            }
+            .otrosEnlaces{
+                width: 350px;
+                //background: chartreuse;
+                padding: 2px;
+                display: flex;
+                flex-direction: row;
+                justify-content:space-around ;
+                .items{
+                    //background: chocolate;
+                    text-decoration: none;
+                    color: white;
+                    padding:0px 0;
+                    font-size:14px;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                .items:hover{
+                    color: $color-verde;
+                }
+            }
+        }
+    
+        .contFooter_copyRight{
+            width: 100%;
+            padding: 20px 0px;
+            background:$color-negro;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            .contFooter_copyRight_text{
+                font-size: 12px;
+                color:white;
+                .sp{
+                    color: $color-verde;
+    
+                }
+            }
+        }
+        
+    }
+        
+    .btnSubida{
+        width: auto;
+        height: auto;
+        //background: violet;
+        position:fixed;
+        right: 15px;
+        bottom: 90px;
+        opacity: 0;
+        transition: 0.5s all;
+        cursor: pointer;
+        .iconSubida{
+            font-size:40px;
+            color: rgb(65, 65, 65);
+            
+        }
+    }  
+        
+    .subir{
+        opacity: 1;
+    } 
+    
+  
+    
+}
+
+
+
+
+
+
+
+/***************************************************************************
+*******************************
+*******************************
+****************************************************************************/
+@media only screen and (max-width:480px){
+    .contFooter{
+        width: 100%;
+        background:$color-negro;
+        color: white;
+        
+        .contFooter_block{
+            width: 100%;
+            padding: 10px 0px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            .logoFooter{
+                width: 50px;
+                height: 50px;
+                background-image: url(../source/logo.png);
+                background-size: 100% 100%;
+                margin-left: 10px;
+            }
+            .contRedes{
+                margin-right: 10px;
+                width: 100px;
+                //background: wheat;
+                .titleRed{
+                    text-align: center;
+                    color: white;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                .redesRedes{
+                    margin: 5px auto;
+                    width: 70px;
+                    //background: crimson;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-items: center;
+                    .iconRed{
+                        color: white;
+                        font-size: 18px;
+                    }
+                }
+            }
+            .otrosEnlaces{
+                display: none;
+               
+            }
+        }
+    
+        .contFooter_copyRight{
+            width: 100%;
+            padding: 20px 0px;
+            background:$color-negro;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            .contFooter_copyRight_text{
+                font-size: 12px;
+                color:white;
+                .sp{
+                    color: $color-verde;
+    
+                }
+            }
+        }
+        
+    }
+       
+    .btnSubida{
+        width: auto;
+        height: auto;
+        //background: violet;
+        position:fixed;
+        right: 10px;
+        bottom: 100px;
+        opacity: 0;
+        transition: 0.5s all;
+        cursor: pointer;
+        .iconSubida{
+            font-size:40px;
+            color: rgb(65, 65, 65);
+            
+        }
+    }  
+        
+    .subir{
+        opacity: 1;
+    } 
+    
+}

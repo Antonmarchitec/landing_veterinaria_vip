@@ -1,0 +1,38 @@
+/*TITLE*/
+.title{        /* NOOOOO SE RESPETA LAS CLASE TITLE*/
+    margin: -15px auto;
+    color: rgb(255, 255, 255);
+    font-size:18px;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+} 
+
+
+.class_popup{       /* SE RESPETA LAS CLASE POPUP LOS BORDES*/
+    border: 2px solid #10aeb9;
+    box-shadow: 0px 0px 10px #10aeb9;
+}
+
+
+.class_buttonConfirm{
+    margin-top: 5px;
+    width: 180px;   /*SE RESPETA LAS CLASE DE LA BOTON*/
+    padding:10px 0px;
+    border: 1px solid white;
+    border-radius: 10px;
+    border: none;
+    background: #10aeb9;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.class_buttonConfirm:hover{
+    background: #10aeb99d;
+}
+
+
+/*FOOTER*/
+.title_h3{         /*SE RESPETA LAS CLASE DE LA BOTON*/
+    color: rgba(194, 194, 194, 0.872);
+}

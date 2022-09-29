@@ -1,0 +1,444 @@
+.contMenu{
+    width: 100%;
+    padding: 12px 0px;
+    background:  $color-negro;
+    box-shadow: 0px 2px 10px $color-negro;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    transition: 1s all;
+    .logo{
+        width: 280px;
+        padding: 2px;
+        margin-left: 20px;
+        //background: lightgray;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        
+        .titleLogo{
+            color: white;
+            font-size: 40px;
+            letter-spacing:-2px;
+            font-family: oswald;
+            .textVip{
+                color: $color-verde;
+            }
+        }    
+    }
+    .contHuellas{
+        width: 220px;
+        height:50px;
+        //background: violet;
+        position: relative;
+        .huellas1{
+            width: 30px;
+            height:30px;
+            background-image: url(../source/huella.png);
+            background-size: 100% 100%;
+            position: absolute;
+            top: 0;
+            left: 20px;
+            opacity: 0.3;
+        }    
+        .huellas2{
+            width: 31px;
+            height:31px;
+            background-image: url(../source/huella.png);
+            background-size: 100% 100%;
+            position: absolute;
+            bottom: 0;
+            left:70px ;
+            opacity: 0.5;
+        }
+        .huellas3{
+            width: 32px;
+            height:32px;
+            background-image: url(../source/huella.png);
+            background-size: 100% 100%;
+            position: absolute;
+            top: 0;
+            left: 120px;
+            opacity: 0.7;
+
+        }
+        .huellas4{
+            width: 33px;
+            height:33px;
+            background-image: url(../source/huella.png);
+            background-size: 100% 100%;
+            position: absolute;
+            bottom: 0;
+            left:170px;
+            opacity: 1;
+        }
+    }
+    .menuEnlaces{
+        width:400px;
+        padding:2px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: space-around;
+        align-items:center;
+        .l_inicio{
+            width: 90px;
+            //background: chartreuse;
+            text-align: center;
+            padding: 3px;
+            .iconFigure{
+                font-size: 23px;
+                color: $color-verde;
+            }
+            .iconFigure:hover{
+                color: white;
+               
+            }
+            .l_texto{
+                font-size: 14px;
+                color: $color-verde;
+                font-family: arial;
+            }
+        }
+        .l_inicio:hover{
+            cursor: pointer;
+        }
+        .btnCMenu{
+            display: none;
+        }
+        .correoTexto{
+            color: white;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+    .contBtnResponsive{
+        background: transparent;
+        display:none;
+    }
+}
+
+
+
+
+/**********************************/
+/************/
+/*************************/
+@media (min-width:770px) and (max-width:1024px){
+    .contMenu{
+        width: 100%;
+        padding: 12px 0px;
+        background:  $color-negro;
+        box-shadow: 0px 2px 2px $color-negro;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        transition: 1s all;
+        .logo{
+            width: 280px;
+            padding: 2px;
+            margin-left: 20px;
+            //background: lightgray;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            
+            .titleLogo{
+                color: white;
+                font-size: 40px;
+                .textVip{
+                    color: $color-verde;
+                }
+            }    
+        }
+        .contHuellas{
+            display: none;
+        }
+        .menuEnlaces{
+            width:400px;
+            padding:2px 0px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction:row;
+            justify-content: space-around;
+            align-items:center;
+            .l_inicio{
+                width: 90px;
+                //background: chartreuse;
+                text-align: center;
+                padding: 3px;
+                .iconFigure{
+                    font-size: 23px;
+                    color: $color-verde;
+                }
+                .l_texto{
+                    font-size: 14px;
+                    color: $color-verde;
+                }
+            }
+            .btnCMenu{
+                display: none;
+            }
+            .correoTexto{
+                color: white;
+                font-size: 15px;
+            }
+        }
+        .contBtnResponsive{
+            background: transparent;
+            display:none;
+        }
+    }
+}   
+
+
+
+
+
+/********************************************
+*************
+********************************************/
+@media (min-width:481px) and (max-width:769px){
+    .contMenu{
+        width: 100%;
+        padding: 11px 0px;
+        background:  $color-negro;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        opacity: 1;
+        transition: 1s all;
+        .logo{
+            width: 280px;
+            padding: 2px;
+            margin-left: 15px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            
+            .titleLogo{
+                color: white;
+                font-size: 40px;
+                .textVip{
+                    color: $color-verde;
+                }
+            }
+        }
+
+        .contHuellas{
+            display: none;
+        }
+
+        .menuEnlaces{
+            width:230px;
+            height: 89vh;
+            padding:2px 20px;
+            background:$color-negroTransparente;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction:column;
+            justify-content: space-around;
+            align-items:flex-start;
+            position: absolute;
+            top:80px;
+            left: -100%;
+            transition: 1s all;
+            .l_inicio{
+                width:100%;
+                text-align: center;
+                padding: 3px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                .iconFigure{
+                    font-size: 40px;
+                    color: $color-verde;
+                    //background: gold;
+                }
+                .iconFigure:hover{
+                    color: $color-verde;
+                    
+                }
+                .l_texto{
+                    font-size: 14px;
+                    color: $color-verde;
+                    margin-left: 10px;
+                }
+                .l_texto:hover{
+                    color: white;
+                }
+            }
+            .l_inicio:hover{
+                cursor: pointer;
+            }
+            .btnCMenu{
+                width: 150px;
+                background: $color-verde;
+                color: white;
+                padding:5px 20px;
+                border-radius: 5px;
+                border: none;
+                position: relative;
+                left:calc(50% - 60px);
+                display: block;
+            }
+            .btnCMenu:hover{
+                background: white;
+                color: $color-negro;
+                cursor: pointer;
+            }
+            .correoTexto{
+                color: white;
+                font-size: 16px;
+                position: relative;
+                top: -10px;
+                left:calc(50% - 90px);
+            }
+        }
+        .menuenlaces_JS{
+           left: 0;
+        }
+        .contBtnResponsive{
+            background: transparent;
+            display:block;
+        }
+    }
+    
+    
+}
+
+
+
+/********************************************
+*************
+********************************************/
+@media (min-width:320px) and (max-width:480px){
+    .contMenu{
+        width: 100%;
+        padding: 11px 0px;
+        background:  $color-negro;
+        .logo{
+            width: auto;
+            padding: 2px;
+            margin-left: 15px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            
+            .titleLogo{
+                color: white;
+                font-size: 30px;
+            
+            }
+        }
+
+        .contHuellas{
+            display: none;
+        }
+
+        .menuEnlaces{
+            width:230px;
+            height: 89vh;
+            padding:2px 20px;
+            background:$color-negroTransparente;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction:column;
+            justify-content: space-around;
+            align-items:flex-start;
+            position: absolute;
+            top:80px;
+            left: -100%;
+            transition: 1s all;
+            .l_inicio{
+                width:100%;
+                text-align: center;
+                padding: 3px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                .iconFigure{
+                    font-size: 40px;
+                    color: $color-verde;
+                    //background: gold;
+                }
+                .iconFigure:hover{
+                    color: $color-verde;
+                    
+                }
+                .l_texto{
+                    font-size: 14px;
+                    color: $color-verde;
+                    margin-left: 10px;
+                }
+                .l_texto:hover{
+                    color: white;
+                }
+            }
+            .l_inicio:hover{
+                cursor: pointer;
+            }
+            .btnCMenu{
+                width: 150px;
+                background: $color-verde;
+                color: white;
+                padding:5px 20px;
+                border-radius: 5px;
+                border: none;
+                position: relative;
+                left:calc(50% - 60px);
+                display: block;
+            }
+            .btnCMenu:hover{
+                background: white;
+                color: $color-negro;
+                cursor: pointer;
+            }
+            .correoTexto{
+                color: white;
+                font-size: 16px;
+                position: relative;
+                top: -10px;
+                left:calc(50% - 90px);
+            }
+        }
+        .menuenlaces_JS{
+           left: 0;
+        }
+        .contBtnResponsive{
+            background: transparent;
+            display:block;
+        }
+    }
+    
+    
+}
+
+

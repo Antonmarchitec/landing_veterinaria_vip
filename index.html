@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/hamburgers.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!--FONT BITTER 900  400-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,900;1,400&display=swap" rel="stylesheet">
+
+    <!--FONT INDIE FLOWER    400-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <!--FONT AWESON-->
+    <script src="https://kit.fontawesome.com/b7fb745aab.js" crossorigin="anonymous"></script>
+
+    <!--SWITCH ALERT-->
+    <link rel="stylesheet" href="css/switchAlert.css">
+
+    <title>Proyect Veterinaria VIP</title>
+</head> 
+<body>
+    <div class="CONTENEDOR">
+        
+        <!--PRELOADER DE LA PAGINA STAR-->
+        <div class="loader" id="loader">
+            <img src="source/carga.gif" alt="carga">
+            <h2 class="loader_text">Cargando...</h2>
+            
+        </div>
+         <!--PRELOADER DE LA PAGINA END-->
+
+          
+
+        <!--GRID MENU-->
+        <div class="MENU" id="volverArriba">
+            <div class="contMenu" id="contMenu">
+                <div class="logo">
+                   <img src="source/logo.png" alt="" width="45px" height="45px">
+                   <h2 class="titleLogo">Veterinaria<span class="textVip">VIP</span></h2>
+                </div>
+
+                <div class="contHuellas">
+                   <div class="huellas1"></div>
+                   <div class="huellas2"></div>
+                   <div class="huellas3"></div>
+                   <div class="huellas4"></div>
+                </div>
+     
+
+                <div class="menuEnlaces" id="menuenlaces">
+                    <a href="index.html" style="text-decoration: none;">
+                        <div class="l_inicio">
+                            <i class="iconFigure fas fa-clinic-medical"></i>
+                            <h2 class="l_texto"> INICIO</h2> 
+                        </div>
+                    </a>
+                    <a href="#subirAcerca" style="text-decoration: none;">
+                        <div class="l_inicio">
+                            <i class="iconFigure fas fa-book-reader"></i>
+                            <h2 class="l_texto"> ACERCA</h2> 
+                        </div>
+                    </a>
+                    <a href="#subirServicios" style="text-decoration: none;">
+                        <div class="l_inicio">
+                            <i class="iconFigure fas fa-user-md"></i>
+                           <h2 class="l_texto"> SERVICIOS</h2> 
+                        </div>
+                    </a>
+                    
+                    <a href="#subirContacto" style="text-decoration: none;">
+                        <div class="l_inicio">
+                            <i class="iconFigure fab fa-creative-commons-sampling-plus"></i>
+                            <h2 class="l_texto"> CONSULTA</h2> 
+                        </div>
+                    </a>
+
+                    <a href="/" target="_blank" style="text-decoration: none;"><button class="btnCMenu"> Contacto</button></a>
+                    <h2 class="correoTexto"> www.veterinariavip.bo</h2>
+                </div>
+
+
+                <div class="contBtnResponsive">
+                    <button class="hamburger hamburger--emphatic" type="button" id="hamburger">
+                        <span class="hamburger-box">
+                          <span class="hamburger-inner"></span>
+                        </span>
+                    </button> 
+                </div>    
+            </div>
+        </div>
+
+        <!--GRID SLADER-->
+        <div class="SLADER" id="subirAlMenu">
+            <div class="contContSlader">
+                <div class="contSlader" id="pushEslader">
+
+                  <div class="cajas">
+                      <div class="foto1">
+                          <h1 class="titleFoto1"> Tratamientos en general</h1>
+                          <div class="imagenLogo1">
+
+                          </div>
+                      </div>
+                  </div>
+
+
+                  <div class="cajas">
+                    <div class="foto2">
+                      <h1 class="titleFoto2">No compres adopta una vida</h1>
+                      <div class="imagenLogo2">
+                              
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="cajas">
+                    <div class="foto3">
+                        <h1 class="titleFoto3">No abandones esteriliza</h1>
+                        <div class="imagenLogo3">
+                              
+                        </div>
+                    </div>
+                  </div>
+
+                </div> 
+                
+                <div class="flechaIzquierda">
+                    <i class="iconFlecha fas fa-angle-left" id="pushIzquierda"></i>
+                </div>
+
+                <div class="flechaDerecha">
+                    <i class="iconFlecha fas fa-angle-right" id="pushDerecha"></i>
+                </div>
+
+                <a href="#subirAcerca">
+                    <div class="flechaAbajo">
+                        <i class="iconFlecha fa-solid fa-angles-down"></i>
+                    </div>
+                </a>
+                
+            </div>
+        </div>
+
+        <!--start ACERCA DE-->
+        <div class="SECTION1" id="subirAcerca">
+            <div class="contSection1">
+                <div class="contSection1_block">
+                    <div class="contDescription">
+                        <h2 class="Subtitles">¡Quien Soy!</h2>
+
+                        <p class="descricionQuienes">
+                            ¡Hola, soy la doctora Nidya Ponce Salazar egresada de la Universidad 
+                            Autónoma Gabriel René Moreno "UAGRM" en la ciudad de Santa Cruz Bolivia, 
+                            de profesión veterinaria y zootécnica tengo 33 años de edad y soy amante 
+                            de los animalitos, trato de dar lo mejor de mí para poder ayudarlos cuando
+                             me necesiten!
+                            <br>
+                            ¡Te dejo mi contacto para poder ayudarte en cualquier tratamiento que necesite tu mascota!
+                           
+                        </p>
+                        
+                        <a href="/" target="_blank">
+                            <button class="btnContacto"><i class="iconWat fab fa-whatsapp"></i> ¡Contacto!</button>
+                        </a>
+                    </div>
+                    
+                    <figure class="contImagen">
+                        <div class="imagen wow animate__animated animate__fadeInUp">
+                            
+                        </div>
+                    </figure> 
+                </div>
+               
+                <div class="curva">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                        <path fill="#10aeb9" fill-opacity="1" d="M0,160L24,160C48,160,96,160,144,138.7C192,117,240,75,288,53.3C336,32,384,32,432,69.3C480,107,528,181,576,197.3C624,213,672,171,720,170.7C768,171,816,213,864,208C912,203,960,149,1008,133.3C1056,117,1104,139,1152,170.7C1200,203,1248,245,1296,234.7C1344,224,1392,160,1416,128L1440,96L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path>
+                    </svg>
+                </div>  
+            </div>
+        </div>
+        <!--end ACERCA-->
+
+        <!--start SERVICIOS-->
+        <div class="SECTION2" id="subirServicios">
+            <div class="contSecciones2">
+                <h2 class="Subtitles"> Servicios</h2>
+                <div class="contSection2">
+                       
+                        <!--TARGET 1-->
+                        <div class="cajaSection2 
+                        wow animate__animated animate__fadeIn" style="animation-duration: 3s;">
+                            <div class="cajaImagen">
+                                <img src="source/SERV1.jpg" alt="" width="100%" height="100%" class="iconAguja">
+                            </div>
+
+
+                            <div class="cajaTexto">
+                                <h2 class="cajaTitle">Vacunación <br>en caninos</h2>
+                            
+                                <p class="cajaParrafo">
+                                    <i class="iconVacunas fas fa-angle-right"></i>
+                                    <span class="textVacuna"> Parvovirus.</span>
+                                    <a href="#"><i class="iconEnviar fas fa-chart-line"></i></a><br> 
+
+
+                                    <i class="iconVacunas fas fa-angle-right"></i>
+                                    <span class="textVacuna"> Hexavalente.</span>
+                                    <a href="#"><i class="iconEnviar fas fa-chart-line"></i></a><br> 
+
+                                    
+                                    <i class="iconVacunas fas fa-angle-right"></i>
+                                    <span class="textVacuna"> Octovalente.</span>
+                                    <a href="#"><i class="iconEnviar fas fa-chart-line"></i></a><br> 
+
+
+                                    <i class="iconVacunas fas fa-angle-right"></i>
+                                    <span class="textVacuna"> Antirrábica.</span>
+                                    <a href="#"><i class="iconEnviar fas fa-chart-line"></i></a><br>
+                                    
+                                </p>
+                            </div>
+                        </div>
+
+                         <!--TARGET 2-->
+                        <div class="cajaSection2 wow animate__animated animate__fadeIn" style="animation-duration: 3s;">
+                            <div class="cajaImagen">
+                               <img src="source/SERV2.jpg" alt="" width="100%" height="100%" class="iconAguja">
+                            </div>
+                            <div class="cajaTexto">
+                                <h2 class="cajaTitle">Vacunación en<br> felinos</h2>
+                            
+                                <p class="cajaParrafo">
+                                    <i class="iconVacunas fas fa-angle-right"></i>
+                                    <span class="textVacuna"> Triplefelina.</span>
+                                    <a href="#"><i class="iconEnviar fas fa-chart-line"></i></a><br>
+                                    
+                                    <i class="iconVacunas fas fa-angle-right"></i>
+                                    <span class="textVacuna"> Antirrabica.</span>
+                                    <a href="#"><i class="iconEnviar fas fa-chart-line"></i></a><br>
+                                </p>
+                            </div>
+                            
+                        </div>
+
+                         <!--TARGET 3-->
+                        <div class="cajaSection2 wow animate__animated animate__fadeIn" style="animation-duration: 3s;">
+                            <div class="cajaImagen">
+                                <img src="source/SERV3.jpeg" alt="" width="100%" height="100%" class="iconAguja">
+                            </div>
+                            <div class="cajaTexto">
+                                <h2 class="cajaTitle">Desparasitación <br>más vitaminas</h2>
+                            
+                                <p class="cajaParrafo">
+                                    <i class="iconVacunas fas fa-angle-right"></i>
+                                    <span class="textVacuna"> Adultos.</span>
+                                    <a href="#"><i class="iconEnviar fas fa-chart-line"></i></a><br>
+                                    
+                                    <i class="iconVacunas fas fa-angle-right"></i>
+                                    <span class="textVacuna"> Cachorros.</span>
+                                    <a href="#"><i class="iconEnviar fas fa-chart-line"></i></a><br>
+                                </p>                               
+                            </div>
+                            
+                        </div>
+
+                         <!--TARGET 4-->
+                        <div class="cajaSection2 wow animate__animated animate__fadeIn" style="animation-duration: 3s;">
+                            <div class="cajaImagen">
+                                <img src="source/SERV4.jpg" alt="" width="100%" height="100%" class="iconAguja">
+                            </div>
+                            <div class="cajaTexto">
+                                <h2 class="cajaTitle">Consultas generales</h2>
+                            
+                                <p class="cajaParrafo">
+                                    Para cualquier emergencia puedes escribirme a mi número de 
+                                    <a href="/" target="_blank" class="wts">WhatsApp</a> o hacerme llegar tu consulta llenando
+                                    el formulario de contacto, con gusto te responderé.
+
+                                    
+                                </p>                               
+                            </div>
+                            
+                        </div>
+                    
+                </div>
+            </div> 
+        </div>
+        <!--end SERVICIOS-->
+        
+         <!--START FROMULARIO-->
+         <div class="FORM" id="subirContacto">
+             <div class="contForm" >
+                <div class="contContFormImage">
+                    <figure class="contFormImage">
+                      <img src="./source/dog.png" alt="dog" style="width:100%; height:100%;">
+                    </figure>
+
+                    <form action="enviar.php" method="post" class="Formulario" onsubmit="return validar();">
+                        <h2 class="title">Formulario de<br> consulta</h2>
+                        <div class="contLabelText">
+                            <input type="text" name="nombre" placeholder="Nombre completo" id="nombre">
+                        </div>
+
+                        <div class="contLabelText">
+                            <input type="text" name="email" placeholder="example@gmail.com" id="correo">
+                        </div>
+
+                        <div class="contLabelText">
+                            <input type="text" name="celular" placeholder="Celular" id="celular">
+                        </div>
+                        
+                        <div class="contLabelText">
+                            <label class="labelText">¡Déjame tu consulta!</label>
+                            <textarea id="campoTexto" name="comentario" placeholder="Dejame tu consulta">
+                                
+                            </textarea>
+                        </div>
+
+                        <button class="btnEnviar">
+                            <i class="fas fa-paper-plane"></i> Enviar
+                        </button>                
+                            <!--
+                            <input type="submit" value="Enviar" class="btnEnviar" id="btnEnviarDatos">
+                            -->
+                    </form>     
+                </div>         
+             </div>
+         </div>
+         <!--end formulario-->
+
+          <!--start campo redes-->
+        <div class="CAMPO_REDES">
+            <div class="contBaseRedes">
+                <div class="contRedes">
+                    <div class="contIcons">
+                        <i class="Icons fas fa-map-marker-alt"></i>
+                        <a href="#" class="textIcons"> Carretera cotoca Ub. Las Palmas #254</a>
+                    </div>
+                    <div class="contIcons">
+                        <i class="Icons fas fa-phone-alt"></i>
+                        <a href="#" class="textIcons"> +591 - 60880753</a>
+                    </div>
+                    <div class="contIcons">
+                        <i class="Icons fas fa-envelope-open"></i>
+                        <a href="#" class="textIcons"> contacto@veterinariavip.bo</a>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+        <!--end campo redes-->
+
+        <!--start footer-->
+        <div class="FOOTER">
+            <div class="contFooter">
+              <div class="contFooter_block">
+                <div class="logoFooter">
+                </div>
+  
+                <div class="contRedes">
+                          <h5 class="titleRed">
+                              Redes Sociales
+                          </h5>
+                          <div class="redesRedes">
+                              <a href=""><i class="iconRed fab fa-facebook-square"></i></a>
+                              <a href=""><i class="iconRed fab fa-instagram"></i></a>
+                              <a href=""><i class="iconRed fas fa-envelope-open-text"></i></a>   
+                          </div> 
+                </div>
+  
+                <div class="otrosEnlaces">    
+                   <a href="#" class="items">Consejos <br>veterinarios</a> 
+                   <a href="#" class="items">Cuidados <br>importantes</a> 
+                   <a href="#" class="items">Galeria</a> 
+                </div>
+              </div>  
+
+              <div class="contFooter_copyRight">
+                <h2 class="contFooter_copyRight_text"> Copyright reserved 2022 <br> 
+                <span class="sp"> Antonio Ponce || DigitizingCode </span></h2>
+              </div>
+              
+            </div>
+        </div>
+        <!--end footer-->
+
+       
+
+         <!--start boton subir-->
+        <div class="btnSubida" id="btnTop">
+            <a href="#volverArriba"><i class="iconSubida fas fa-arrow-circle-up"></i></a>
+        </div>
+         <!--end boton subir-->
+         
+    </div>
+
+    
+
+   <!--MIS SCRIPTS-->
+    <script src="js/slader.js"></script>
+    <script src="js/preloader.js"></script>
+    <!--<script src="js/menu.js"></script>-->
+    
+    <script src="js/btnTop.js"></script>
+    <script src="js/validarFormulario.js"></script>
+    <script src="js/hamburguesa.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+   <!--SCRIPT DE ANIMATION EL SCROLLING-->
+   <script src="js/wow.min.js"></script>
+   <script>
+      new WOW().init();
+   </script>
+</body>
+</html>

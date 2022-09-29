@@ -1,0 +1,30 @@
+.loader{
+    width:100%;
+    height: 100vh;
+    background: rgb(26, 25, 25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 5000;
+    position: fixed;
+    .loader_text{
+        margin-top: -20px;
+        color: rgb(215, 215, 215);
+        font-size: 16px;
+        font-family:arial;
+        text-transform: uppercase;
+    }
+
+}
+.loaderJS{
+    animation: preloader 3s forwards;
+}
+@keyframes preloader {
+    from{
+        opacity: 1;
+    }to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}

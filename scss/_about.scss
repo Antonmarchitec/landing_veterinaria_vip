@@ -1,0 +1,414 @@
+
+
+.contSection1{
+    width: 100%;
+    height: 600px;
+    padding: 50px 0px;
+    background:white;
+    background-attachment: fixed;
+    overflow: hidden;
+    position: relative;
+    .contSection1_block{
+        width: 100%;
+        padding: 10px 50px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        .contDescription{
+            width: 450px;
+            padding:0;
+            position: relative;
+            z-index: 50;
+            .Subtitles{
+                font-size: $font_size_titles;
+                color: rgb(43, 43, 43);
+                font-family: $font_family_IndieFlower;
+                
+            }
+            .descricionQuienes{
+                margin-top: 20px;
+                text-align: justify;
+                color: rgb(103, 103, 103);
+                font-family: $font_family_IndieFlower;
+            }
+            .btnContacto{
+                width: 200px;
+                margin-top: 20px;
+                border-radius: 10px;
+                border:none ;
+                padding: 10px 0px;
+                background: $color-negro;
+                color: white;
+                transition: 0.5s all;
+                .iconWat{
+                   font-size: 18px;
+                }
+            }
+            .btnContacto:hover{
+                cursor: pointer;
+                background: $color-negroTransparente;
+                box-shadow: 0px 2px 0px $color-plomizo;
+            }
+        }
+
+
+        .contImagen{
+            width:55%;
+            height: 490px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            z-index:0;
+            .imagen{
+                width: 100%;
+                height: 100%;
+                background-image: url(../source/dogo.png);
+                background-size: 100% 100%;
+                animation-duration:4s;
+                
+            }
+        }
+
+    }
+
+    .curva{
+        width: 100%;
+        height: 250px;
+        position: absolute;
+        bottom: 0px;
+        
+    }
+}
+
+
+
+/*****************************************
+***********************
+**************************************/
+@media (min-width:900px) and (max-width:1200px){
+    .contSection1{
+        width: 100%;
+        height: 510px;
+        padding: 50px 0px;
+        position: relative;
+        .contSection1_block{
+            width: 100%;
+            padding: 10px 20px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+    
+            .contDescription{
+                width: 400px;
+                padding:10px 0px;
+                position: relative;
+                z-index: 50;
+                .Subtitles{
+                    font-size: 60px;
+                    letter-spacing: -1px;
+                }
+                .descricionQuienes{
+                    margin-top: 20px;
+                }
+                .btnContacto{
+                    width: 200px;
+                    margin-top: 20px;
+                    padding: 10px 0px;
+                    .iconWat{
+                       font-size: 18px;
+                    }
+                }
+                
+            }
+    
+    
+            .contImagen{
+                width:52%;
+                height: 450px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                z-index:0;
+                .imagen{
+                    width: 100%;
+                    height: 100%;
+                    background-image: url(../source/dogo.png);
+                    background-size: 100% 100%;
+                    
+                }
+            }
+    
+        }
+    
+        .curva{
+            width: 100%;
+            height: 200px;
+            position: absolute;
+            bottom: -5px;
+            
+        }
+      
+    }
+}
+
+
+
+/*****************************************
+***********************
+**************************************/
+@media (min-width:770px) and (max-width:899px){
+    .contSection1{
+        width: 100%;
+        height: 510px;
+        padding: 50px 0px;
+        position: relative;
+        .contSection1_block{
+            width: 100%;
+            padding: 10px 20px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+    
+            .contDescription{
+                width: 350px;
+                padding:10px 0px;
+                position: relative;
+                z-index: 50;
+                .Subtitles{
+                    font-size: 60px;
+                    letter-spacing: -1px;
+                }
+                .descricionQuienes{
+                    margin-top: 20px;
+                    text-align: justify;
+                }
+                .btnContacto{
+                    width: 200px;
+                    margin-top: 20px;
+                    border-radius: 10px;
+                    border:none ;
+                    padding: 10px 0px;
+                    background: $color-negro;
+                    color: white;
+                    transition: 0.5s all;
+                    .iconWat{
+                       font-size: 18px;
+                    }
+                }
+            }
+    
+    
+            .contImagen{
+                width:50%;
+                height: 450px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                z-index:0;
+                .imagen{
+                    width: 100%;
+                    height: 100%;
+                    background-image: url(../source/dogo.png);
+                    background-size: 100% 100%;
+                    
+                }
+            }
+    
+        }
+    
+        .curva{
+            width: 100%;
+            height: initial;
+            position: absolute;
+            bottom: -5px;
+            
+        }
+      
+    }
+}
+
+
+
+
+
+
+/*****************************************
+***********************
+**************************************/
+@media (min-width:641px) and (max-width:769px){
+    .contSection1{
+        width: 100%;
+        height: 510px;
+        padding: 50px 0px;
+        background-attachment: fixed;
+        position: relative;
+        .contSection1_block{
+            width: 100%;
+            padding: 10px 20px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+    
+            .contDescription{
+                width: 50%;
+                padding:10px 0px;
+                position: relative;
+                z-index: 50;
+                .Subtitles{
+                    font-size: 60px;
+                    letter-spacing: -1px;
+                }
+                .descricionQuienes{
+                    margin-top: 20px;
+                    text-align: justify;
+                }
+                .btnContacto{
+                    width: 200px;
+                    margin-top: 20px;
+                    border-radius: 10px;
+                    border:none ;
+                    padding: 10px 0px;
+                    background: $color-negro;
+                    color: white;
+                    transition: 0.5s all;
+                    .iconWat{
+                       font-size: 18px;
+                    }
+                }
+                .btnContacto:hover{
+                    cursor: pointer;
+                    background: $color-negroTransparente;
+                    box-shadow: 0px 2px 0px $color-plomizo;
+                }
+            }
+    
+    
+            .contImagen{
+                width:50%;
+                height: 450px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                z-index:0;
+                .imagen{
+                    width: 100%;
+                    height: 100%;
+                    background-image: url(../source/dogo.png);
+                    background-size: 100% 100%;
+                    animation-duration:4s;
+                    
+                }
+            }
+    
+        }
+    
+        .curva{
+            width: 100%;
+            height: initial;
+            position: absolute;
+            bottom: -5px;
+            
+        }
+      
+    }
+}
+
+
+
+
+
+/*****************************************
+***********************
+**************************************/
+@media (min-width:320px) and (max-width:640px){
+    .contSection1{
+        width: 100%;
+        height: initial;
+        padding: 10px 0px;
+        background-attachment: fixed;
+        position: relative;
+        .contSection1_block{
+            width: 100%;
+            padding: 10px 20px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: initial;
+            justify-content: space-between;
+            align-items: center;
+    
+            .contDescription{
+                width: 100%;
+                padding:10px 0px;
+                position: relative;
+                z-index: 50;
+                .Subtitles{
+                    font-size: $font_size_titles_movil;
+                    letter-spacing: -1px;
+                }
+                .descricionQuienes{
+                    margin-top: 20px;
+                    text-align: justify;
+                }
+                .btnContacto{
+                    width: 200px;
+                    margin-top: 20px;
+                    border-radius: 10px;
+                    border:none ;
+                    padding: 10px 0px;
+                    background: $color-negro;
+                    color: white;
+                    transition: 0.5s all;
+                    .iconWat{
+                       font-size: 18px;
+                    }
+                }
+                .btnContacto:hover{
+                    cursor: pointer;
+                    background: $color-negroTransparente;
+                    box-shadow: 0px 2px 0px $color-plomizo;
+                }
+            }
+    
+    
+            .contImagen{
+                width:100%;
+                height: 450px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                z-index:0;
+                .imagen{
+                    width: 100%;
+                    height: 100%;
+                    background-image: url(../source/dogo.png);
+                    background-size: 100% 100%;
+                    animation-duration:4s;
+                    
+                }
+            }
+    
+        }
+    
+        .curva{
+            width: 100%;
+            height: initial;
+            position: absolute;
+            bottom: -5px;
+            
+        }
+      
+    }
+}
