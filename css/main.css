@@ -2508,6 +2508,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   width: auto;
   height: auto;
   position: fixed;
+  z-index: 200;
   right: 35px;
   border: 2px solid #10aeb9;
   border-radius: 50%;
