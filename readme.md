@@ -15,6 +15,7 @@
 - Página informativa.
 - página de aterrizaje
 - landing page.
+- Proyecto veterianria vip 
 
 ## Descripción del proyecto:
 Landing page estructurada con una base construida con CSS GRID, header (Encabezado), 4 secciones y el footer (pie). El proyecto se adapta a dispositivos de escritorio (Desktop), tablet y móviles.  
@@ -25,18 +26,18 @@ Landing page estructurada con una base construida con CSS GRID, header (Encabeza
 - Móvil: 320px
 
 ## Codigo fuente
-https://github.com/Antonmarchitec/sitio-reposteria.git
+https://github.com/Antonmarchitec/landing_veterinaria_vip.git
 
 ## Vista previa:
-https://antonmarchitec.github.io/sitio-reposteria/
+https://antonmarchitec.github.io/landing_veterinaria_vip/
 
 ## Frase del día:
-"Las ideas tienen que ir tomando forma. Se van haciendo realidad al trabajar en ellas. Solo hay que ponerse en marcha".
--- Mark Zuckerberg --
+"“Está bien celebrar el éxito, pero es más importante prestar atención a las lecciones del fracaso".
+-- Bill Gates --
 
 ## Imagen del proyecto.
 
-![IMAGEN PLANTILLA PASTELERIA](https://user-images.githubusercontent.com/70084380/187129596-fc20410d-d866-4781-97f9-ffb97a55bb25.jpg)
+![landing_veterinaria](https://user-images.githubusercontent.com/70084380/192947847-2b27281f-8a27-4d7c-bffa-cc2d4c6b1875.jpg)
 
 
 
