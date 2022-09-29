@@ -2,6 +2,7 @@
     padding: 70px 0px;
     width: 100%;
     background:$color-verde;
+    position: relative;
     .Subtitles{
         font-size: $font_size_titles;
         text-align: center;
@@ -12,12 +13,13 @@
         margin-top: 50px;
         width: 100%;
         padding: 5px;
-        //background: rgb(207, 207, 207);
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
+        position: relative;
+        z-index: 10;
         .cajaSection2{
             margin: 10px 0px;
             width: 280px;
@@ -84,6 +86,24 @@
             transform:translateY(-10px);
         }   
     }
+
+    .blockHuellas1{
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        top: 0;
+        left: 50px;
+        transform: rotate(30deg);
+    }
+
+    .blockHuellas2{
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        top:450px;
+        left: 200px;
+        transform: rotate(30deg);
+    }
     
 }
 
@@ -99,8 +119,11 @@
         .Subtitles{
             font-size: $font_size_titles;
             text-align: center;
-            color: white;
-            font-family:$font_family_IndieFlower
+            color: rgb(46, 46, 46);
+            font-family:$font_family_IndieFlower;
+            position: relative;
+            z-index: 10;
+            
         }
         .contSection2{
             margin-top: 50px;
@@ -195,8 +218,10 @@
         .Subtitles{
             font-size: $font_size_titles;
             text-align: center;
-            color: white;
-            font-family:$font_family_IndieFlower
+            font-family:$font_family_IndieFlower;
+            color: rgb(46, 46, 46);
+            position: relative;
+            z-index: 10;
         }
         .contSection2{
             margin-top: 50px;
@@ -292,8 +317,10 @@
         .Subtitles{
             font-size: $font_size_titles;
             text-align: center;
-            color: white;
-            font-family:$font_family_IndieFlower
+            font-family:$font_family_IndieFlower;
+            position: relative;
+            color: rgb(46, 46, 46);
+            z-index: 10;
         }
         .contSection2{
             margin-top: 50px;

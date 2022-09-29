@@ -1,9 +1,8 @@
 .contForm{
     width: 100%;
     padding: 100px 0px;
-    padding-top: 340px;
     background:#e8e8e8;
-    background: linear-gradient($color-verde, white);
+    background: linear-gradient($color-verde, rgba(255, 255, 255, 0.922));
     .contContFormImage{
         width: 100%;
         display: flex;
@@ -11,6 +10,8 @@
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
+        position: relative;
+        z-index: 200;
         .contFormImage{
             width: 600px;
             height: 800px;
@@ -24,6 +25,8 @@
                 }
             }
         }
+
+
         .Formulario{
             width: 500px;
             padding: 70px 30px; 
@@ -88,6 +91,27 @@
                 box-shadow: 0px 2px 0px $color-verde;
                 cursor: pointer; 
              }
+        }
+
+        .contFormImage_huella1{
+            width: 400px;
+            height: 400px;
+            position: absolute;
+            right: 300px;
+            bottom: 400px;
+            transform: rotate(-110deg);
+            z-index: -1;
+        }
+
+        .contFormImage_huella2{
+            width: 400px;
+            height: 400px;
+            position: absolute;
+            z-index: -1;
+            right: 400px;
+            bottom: 0;
+            transform: rotate(-120deg);
+            
         }
        
     }
@@ -339,6 +363,8 @@ RESPONSIVE DESING OFICIAL NUEVO
                 height: 500px;
                 
             }
+
+
             .Formulario{
                 width:100%;
                 padding: 50px 20px; 
@@ -380,6 +406,27 @@ RESPONSIVE DESING OFICIAL NUEVO
                     background: $color-verde;
                     color: white;
                  }
+            }
+
+            .contFormImage_huella1{
+                width: 200px;
+                height: 200px;
+                position: absolute;
+                right: 50px;
+                top: -150px;
+                transform: rotate(-110deg);
+                z-index: -1;
+            }
+    
+            .contFormImage_huella2{
+                width: 300px;
+                height: 300px;
+                position: absolute;
+                z-index: -1;
+                right: -10px;
+                bottom: 200px;
+                transform: rotate(-120deg);
+                
             }
            
         }

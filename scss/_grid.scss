@@ -4,7 +4,9 @@
     width: 100%;
     max-width: 1440px;
     //padding: 10px 0px;
-    background:rgb(164, 14, 14);
+    background-image: url(../source/logo.png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
     margin: auto;
     display: grid;
     //gap: 1em;
@@ -39,15 +41,8 @@
     .SECTION2{    /*MIS SERVICIOS*/
         //padding:10px 0px;
         //background:rgb(16, 165, 28) ; 
-        height: 450px;
         grid-area: SECTION2;
     }
-                @media (min-width:320px) and (max-width:1200px){
-                    .SECTION2{    /*MIS SERVICIOS*/
-                        height: initial;
-
-                    }
-                }
 
     .FORM{
         //padding:10px 0px;
