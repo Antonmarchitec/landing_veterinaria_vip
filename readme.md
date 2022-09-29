@@ -36,8 +36,9 @@ https://antonmarchitec.github.io/landing_veterinaria_vip/
 -- Bill Gates --
 
 ## Imagen del proyecto.
+![landing_veterinaria](https://user-images.githubusercontent.com/70084380/192950400-75554220-0178-4e51-b16f-33a25ca6e847.jpg)
 
-landing_veterinaria.jpg
+
 
 
 
