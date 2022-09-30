@@ -18,7 +18,7 @@
 - Proyecto veterinaria vip 
 
 ## Descripción del proyecto:
-Landing page desarrollado para consultorio veterinario, cuenta con un menu de navegacion, 4 secciones, footer (pie de pagina), scroolling personalizado, slader, boton de subida, integracion a enlaces externos, formulario de contacto con validacion, el proyecto se adapta a dispositivos de escritorio (Desktop), tablet y móviles.  
+Landing page desarrollado para consultorio veterinario, cuenta con un menú de navegación, 4 secciones, footer (pie de página), scroolling personalizado, slader, botón de subida, integración a enlaces externos, formulario de contacto con validación, el proyecto se adapta a dispositivos de escritorio (Desktop), tablet y móviles.  
 
 ## Diseño responsivo:
 - Desktop: 1440px
