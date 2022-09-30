@@ -15,10 +15,10 @@
 - Página informativa.
 - página de aterrizaje
 - landing page.
-- Proyecto veterianria vip 
+- Proyecto veterinaria vip 
 
 ## Descripción del proyecto:
-Landing page estructurada con una base construida con CSS GRID, header (Encabezado), 4 secciones y el footer (pie). El proyecto se adapta a dispositivos de escritorio (Desktop), tablet y móviles.  
+Landing page desarrollado para consultorio veterinario, cuenta con un menu de navegacion, 4 secciones, footer (pie de pagina), scroolling personalizado, slader, boton de subida, integracion a enlaces externos, formulario de contacto con validacion, el proyecto se adapta a dispositivos de escritorio (Desktop), tablet y móviles.  
 
 ## Diseño responsivo:
 - Desktop: 1440px
@@ -38,3 +38,7 @@ https://antonmarchitec.github.io/landing_veterinaria_vip/
 ## Imagen del proyecto.
 
 ![landing_veterinaria](https://user-images.githubusercontent.com/70084380/192951988-2b0d9e02-f51d-46a7-a877-4f97a5b173dc.jpg)
+
+
+Copyright reserved 2022
+Antonio Ponce || DigitizingCode
